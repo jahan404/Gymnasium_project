@@ -63,7 +63,7 @@
     }
     .banner-right .image{
         height: 588px;
-        width: 415px;
+        width: 350px;
 
         position: relative;
         overflow: hidden;
@@ -79,7 +79,7 @@
     
     .video-500{
         position: absolute;
-        left: 58%;
+        left: 40%;
         top: 82%;
     }
     .video-350{
