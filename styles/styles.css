@@ -6,8 +6,6 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 
 body{
-    /* font-family: "Inter", sans-serif; */
-    /* font-family: 'Miama', sans-serif; */
     font-family: "Roboto", sans-serif;
 }
 
@@ -24,8 +22,9 @@ body{
 }
 
 .header-main,
-.change-habits-container{
-    width: 1200px;
+.change-habits-container,
+.run-an-extra-mile-container{
+    max-width: 1200px;
     margin: 0 auto;
 }
 /* orange-button */
@@ -37,7 +36,9 @@ body{
     padding: 10px 20px;
     border: none;
 }
-
+.not-for-dekstop{
+    display: none;
+}
 
 /*////////////////// header section ////////////////////*/
 
@@ -51,11 +52,11 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    padding-top: 60px;
+    padding-top: 54px;
 }
 .nav-right{
     margin-top: 10px;
-    gap: 80px;
+    gap: 60px;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
@@ -68,7 +69,9 @@ header{
     font-style: italic;
     color: rgb(230, 83, 60);
 }
-
+.ham-burgir{
+    display: none;
+}
 /* banner */
 .banner-main{
     margin-top: 32px;
@@ -78,8 +81,6 @@ header{
 }
 .banner-left{
     width: 50%;
-
-    /* border: 2px solid red; */
 }
 .banner-left h1{
     color: rgb(255, 255, 255);
@@ -104,10 +105,10 @@ header{
 
     margin-bottom: 35px;
 }
+
 /* .banner-left  */
 .banner-right{
     width: 30%;
-    /* border: 2px solid red; */
 
     position: relative;
 }
@@ -120,8 +121,7 @@ header{
     left:-25%;
     top: 75%;
     background: rgba(255, 255, 255, 0.1);
-    /* filter: blur(20px); */
-    /* background: transparent; */
+    
     backdrop-filter: blur(8px);
     padding: 20px 20px;
     border-radius: 12px;
@@ -182,7 +182,7 @@ header{
 .change-habits-card-container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(12,1fr);
+    grid-template-rows: repeat(9,1fr);
     
     padding-left: 50px;
 }
@@ -210,6 +210,7 @@ header{
     border-radius: 180px;
     /* padding: 20px; */
     align-items: left;
+    border: 2px solid rgb(72, 69, 69);
 }
 
 .card h1{
@@ -224,3 +225,43 @@ header{
 
 
 /*MUST   --------------- // join club now+ download app button fix */
+
+/* Run an Extra Mile Easily */
+.run-an-extra-mile-main{
+    background-color: rgba(0, 0, 0, 0.937);
+    padding-bottom: 100px;
+}
+.run-an-extra-mile-container{
+    background-color: rgba(88, 82, 82, 0.751);
+    padding: 20px 0px 20px 40px;
+
+    border-radius: 12px;
+    
+}
+
+.run-an-extra-mile-left{
+    width: 70%;
+}
+.run-an-extra-mile-right{
+    width: 30%;
+}
+
+
+
+/* confusing image part */
+.run-an-extra-mile-right div{
+    height: 250px;
+    width: 300px;
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.run-an-extra-mile-right div img{
+    width: 100%;
+    transform: scale(3.5);
+
+    position: absolute;
+    top: 40%;
+    right: 48%;    
+}
