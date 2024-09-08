@@ -22,8 +22,7 @@ body{
 }
 
 .header-main,
-.change-habits-container,
-.run-an-extra-mile-container{
+.change-habits-container{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -208,7 +207,6 @@ header{
 .card div img{
     width: 100%;
     border-radius: 180px;
-    /* padding: 20px; */
     align-items: left;
     border: 2px solid rgb(72, 69, 69);
 }
@@ -232,36 +230,69 @@ header{
     padding-bottom: 100px;
 }
 .run-an-extra-mile-container{
-    background-color: rgba(88, 82, 82, 0.751);
-    padding: 20px 0px 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(45, 44, 44, 0.751);
+    padding: 40px 40px 40px 80px;
 
     border-radius: 12px;
     
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 .run-an-extra-mile-left{
-    width: 70%;
+    width: 40%;
 }
 .run-an-extra-mile-right{
-    width: 30%;
+    width: 42%;
 }
+.run-an-extra-mile-left h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.run-an-extra-mile-left p{
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        opacity: 0.4;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+        margin-bottom: 30px;
+    }
 
-
+    .run-an-extra-mile-button button{
+        padding: 15px 50px; 
+        border-radius: 23px;
+    }
 
 /* confusing image part */
-.run-an-extra-mile-right div{
-    height: 250px;
-    width: 300px;
 
+
+/* .run-an-extra-mile-right div{
+    height: 300px;
+    width: 380px;
     position: relative;
     overflow: hidden;
     border-radius: 12px;
 }
 .run-an-extra-mile-right div img{
     width: 100%;
-    transform: scale(3.5);
+    transform: scale(3.2);
 
     position: absolute;
     top: 40%;
-    right: 48%;    
+    right: 45%;    
+} */
+
+.run-an-extra-mile-right div img{
+    width: 100%;
+    height: 400px;
+    object-fit: none;
+    object-position: 66% 30%;
+    border-radius: 20px;
+
 }
