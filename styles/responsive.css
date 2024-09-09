@@ -89,6 +89,15 @@
     }
 
     /* change your habits */
+    .change-habits-container{
+        max-width: 85%;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+    .change-habits-container h1{
+        font-size: 30px;
+
+    }
     .change-habits-card-container{
         grid-template-rows: repeat(8,1fr);
     }
