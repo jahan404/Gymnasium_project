@@ -121,7 +121,7 @@ header{
     position: absolute;
     background: rgba(138, 122, 122, 0.1);
     
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     padding: 20px 24px;
     border-radius: 12px;
 
@@ -129,16 +129,16 @@ header{
     align-items: center;
     /* gap: 10px; */
 
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(173, 152, 152, 0.614);
 }
 
-.video-350 div i{
+.video-350 div .red-circle{
     color: rgb(230, 83, 60);
     font-size: 35px;
 }
 .video-350 h1{
     color: white;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
 }
 .video-500 h1{
@@ -179,7 +179,11 @@ header{
     font-weight: 900;
     margin-bottom: 10px;
 }
+.change-habits-main>p{
+    width: 50%;
+}
 .change-habits-main p{
+    margin: 0 auto;
     color: white;
     font-size: 12px;
     font-weight: 400;
@@ -218,7 +222,7 @@ header{
     width: 100%;
     border-radius: 180px;
     align-items: left;
-    border: 2px solid rgb(72, 69, 69);
+    border: 3px solid rgb(87, 85, 85);
 }
 
 .card h1{
@@ -259,6 +263,7 @@ header{
     width: 42%;
 }
 .run-an-extra-mile-left h1{
+    width: 75%;
     color: white;
     font-size: 48px;
     font-weight: 900;
