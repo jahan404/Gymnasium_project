@@ -20,6 +20,7 @@
     /* banner */
     .banner-main{
         flex-direction: column;
+        margin-top: 0px;
     }
     /* banner left*/
     .banner-left{
@@ -40,19 +41,24 @@
         line-height: 25px;
         margin-bottom: 35px;
     }
+    .banner-all-buttons button{
+        color: white;
+        border-radius: 20px;
+        background: rgb(230, 83, 60);
+        font-size: 14px;
+        padding: 17px 25px;
+        border: none;
+    }
     .button-primary .join-now-button{
         display: block;
         background: rgb(230, 83, 60);
-        font-size: 18px;
-        font-weight: 600;
-        padding: 20px 40px;
-        border-radius: 42px;
+        padding: 17px 40px;
     }
     .join-club-now-button{
         display: none;
     }
     .banner-all-buttons{
-        justify-content: space-between;
+        gap: 10px;
     }
     
     .banner-main{    
@@ -65,10 +71,12 @@
     }
     .banner-right .image{
         height: 588px;
-        width: 320px;
+        width: 300px;
 
         position: relative;
         overflow: hidden;
+
+        margin: 0 auto;
     }
     .banner-right div img{
         width: 100%;
@@ -79,13 +87,45 @@
         top: 9%;
     }
     
+
+
+
+
+
+    .video-350 div .red-circle{
+        color: rgb(230, 83, 60);
+        font-size: 30px;
+    }
+    .video-350 h1{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .video-500 h1{
+        color: white;
+        font-size: 26px;
+        font-weight: 900;
+    }
+    .video-350 p, .video-500 p{
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        opacity: 0.3;
+    }
+
+
+
+
+
+
     .video-500{
-        right: -3%;
+        right: 4%;
         top: 9%;
     }
     .video-350{
         top: 50%;
-        left: -20%;
+        left: 1%;
+        gap: 5px;
     }
     .video-350 div .red-circle{
         display: none;
@@ -162,6 +202,14 @@
     .run-an-extra-mile-right{
         width: 100%;
     }
+
+    .run-an-extra-mile-left h1{
+        width: 100%;
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
     /* .run-an-extra-mile-right div{
         height: 300px;
         width: 330px;
@@ -185,7 +233,7 @@
     }
 
     .run-an-extra-mile-button button{
-        padding: 20px 158px; 
+        padding: 15px 80px; 
         border-radius: 23px;
         margin: 0 auto;
         margin-bottom: 20px;
