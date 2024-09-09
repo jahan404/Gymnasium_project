@@ -78,6 +78,7 @@ header{
     align-items: center;
     gap: 220px;
 }
+/* .banner-left  */
 .banner-left{
     width: 50%;
 }
@@ -104,8 +105,10 @@ header{
 
     margin-bottom: 35px;
 }
-
-/* .banner-left  */
+.banner-all-buttons{
+    gap: 18px;
+}
+/* .banner-right  */
 .banner-right{
     width: 30%;
     position: relative;
@@ -116,40 +119,48 @@ header{
 
 .video-350, .video-500{
     position: absolute;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(138, 122, 122, 0.1);
     
-    backdrop-filter: blur(8px);
-    padding: 20px 20px;
+    backdrop-filter: blur(3px);
+    padding: 20px 24px;
     border-radius: 12px;
 
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
 
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .video-350 div i{
     color: rgb(230, 83, 60);
     font-size: 35px;
 }
-.video-350 h1,.video-500 h1{
+.video-350 h1{
     color: white;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.video-500 h1{
+    color: white;
+    font-size: 34px;
     font-weight: 900;
 }
 .video-350 p, .video-500 p{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     opacity: 0.3;
 }
 .video-350{
+    gap: 10px;
     left:-25%;
     top: 75%;
 }
 .video-500{
     right: -12%;
     top: 25%;
+    padding: 17px 24px;
 }
 
 /*////////////////////////// main ////////////////////////////*/
