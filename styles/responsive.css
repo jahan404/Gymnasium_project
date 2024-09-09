@@ -1,8 +1,8 @@
 @media screen and (max-width: 576px){
 
     /* shared style */
-    .navbar-main{
-        max-width: 85%;
+    .header-main{
+        width: 400px;
         margin: 0 auto;
     }
     /* navbar */
@@ -51,15 +51,16 @@
         display: none;
     }
     .banner-all-buttons{
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
+    
     .banner-main{    
         align-items: center;
         gap:40px;
     }
 
     .banner-right{
-        width: 90%;
+        width: 85%;
     }
     .banner-right .image{
         height: 588px;
@@ -78,14 +79,14 @@
     }
     
     .video-500{
-        position: absolute;
-        left: 40%;
-        top: 82%;
+        /* position: absolute; */
+        right: 5%;
+        top: 6%;
     }
     .video-350{
-        position: absolute;
-        top: 55%;
-        left: 1%;
+        /* position: absolute; */
+        top: 50%;
+        left: -1%;
     }
 
     /* change your habits */
