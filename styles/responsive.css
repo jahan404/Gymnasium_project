@@ -191,6 +191,7 @@
     }
 
     /* run an extra mile easily */
+
     .run-an-extra-mile-container{
         flex-direction: column;
         padding: 25px;
@@ -239,15 +240,72 @@
         margin-bottom: 20px;
     }
 
+    /* challenge part */
+
+    .bmi-calculator-header{
+        width: 90%;
+        padding-bottom: 40px;
+    }
+    .bmi-calculator-header h1{ 
+        padding-top: 30px;    
+        font-size: 28px;
+    }
+    .bmi-calculator-header p,
+    .bmi-calculator-right p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1.0px;
+    }
+
+    .bmi-calculator-container{
+        flex-direction: column;
+        gap: 40px;
+
+        align-items: center;
+    }
+    
+    /* left part */
+    .bmi-calculator-left{
+        width: 80%;
+    }
+    .bmi-calculator-left h1,
+    .bmi-calculator-right h1{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    
+    table th{
+       font-size: 14px;
+    }
+    table td{
+        font-size: 12px;
+    }
+    
+    /* right part */
+    .bmi-calculator-right{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .bmi-calculator-right h1{
+        padding-bottom: 20px;
+    }
+    .bmi-calculator-right p{
+        letter-spacing: 1.0px;
+        margin-bottom: 20px;
+    }
+    
+    .bmi-input-part{
+        grid-template-rows: repeat(11,1fr);    
+    }
+    
+    .calculate-button{
+        padding: 15px 60px;
+        border: 30px solid red;
+    }
 
 
-
-
-
-
-
-
-
+    /* meet our team */
     .meet-our-team-grid-images{
         display: grid;
         grid-template-columns: repeat(12,1fr);
