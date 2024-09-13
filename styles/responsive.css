@@ -127,14 +127,17 @@
         left: 1%;
         gap: 5px;
     }
-    .video-350 div .red-circle{
-        display: none;
-    }
+    
     .video-350 div .play-red-circle{
-        display: block;
         color: rgb(230, 83, 60);
         font-size: 35px;
     }
+    .video-350 div .play-icon i{
+        top: 27%;
+        left: 30%;
+        font-size: 20px;
+    }
+
     /* change your habits */
     /* .change-habits-main h1{
     color: white;
@@ -240,6 +243,82 @@
         margin-bottom: 20px;
     }
 
+    /* training part */
+    /* .training-image-container{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(10,1fr);
+    
+        gap: 0px;
+    }
+    .pic-1{
+        grid-column: 1/span 7;
+        grid-row: 1/span 4;
+    }
+    .pic-2{
+        grid-column: 8/span 4;
+        grid-row: 1/span 4;
+    }
+    .pic-3{
+        display: none;
+    }
+    
+    .pic-4{
+        grid-column: 1/span 5;
+        grid-row: 5/span 4;
+    }
+    .pic-5{
+        grid-column: 6/span 12;
+        grid-row: 5/span 4;
+    }
+    .pic-6{
+        display: none;
+    }
+    .training-image-container div img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .pic-1-color-effect{
+        height: 150px;
+        width: 248px;
+        z-index: 10;
+        background-color: rgba(6, 255, 210, 0.5);
+        position: absolute;
+    }
+    .pic-2-color-effect{
+        height: 150px;
+        width: 150px;
+        z-index: 10;
+        background-color: rgba(255, 0, 0, 0.3);
+        position: absolute;
+    }
+    .pic-3-color-effect{
+        display: none;
+    }
+    .pic-4-color-effect{
+        height: 150px;
+        width: 150px;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+    }
+    .pic-5-color-effect{
+        height: 150px;
+        width: 100px;
+        z-index: 10;
+        background-color: rgba(66, 255, 0, 0.3);
+        position: absolute;
+    }
+    .pic-6-color-effect{
+        display: none;
+    }
+     */
+
     /* challenge part */
 
     .bmi-calculator-header{
@@ -332,6 +411,13 @@
     
     .day-container,.month-container,.year-container{
         width: 300px;
+        height: 880px;
+    }
+    .month-container{
+        height: 800px;
+    }
+    .day-container{
+        height: 760px;
     }
     .day-container h4,.month-container h4,.year-container h4{
         padding: 10px;
@@ -350,18 +436,22 @@
         letter-spacing: 1.2px; 
     }
     
-    
+    .membership-pricing-container .big-month>span{
+        font-size: 90px;
+    }
+    .membership-pricing-container .big-month-button button{
+        padding: 15px 40px;
+    }
+
+
     .day-container{
         background-color: rgba(65, 65, 65, 0.893);
-        padding: 20px;
     }
     .month-container{
         background: rgba(65, 65, 65, 0.893);
-        padding: 20px;
     }
     .year-container{
         background-color: rgba(65, 65, 65, 0.893);
-        padding: 20px 10px 40px 20px;
     }
     
     .facalities-list p{
