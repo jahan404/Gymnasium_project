@@ -2,7 +2,7 @@
 
     /* shared style */
     .navbar-main{
-        max-width: 85%;
+        max-width: 300px;
         margin: 0 auto;
     }
 
@@ -24,7 +24,7 @@
     }
     /* banner left*/
     .banner-left{
-        width: 85%;
+        width: 300px;
     }
     .banner-left h1{
         font-size: 50px;
@@ -67,11 +67,11 @@
     }
     /* banner right*/
     .banner-right{
-        width: 340px;
+        width: 280px;
     }
     .banner-right .image{
-        height: 588px;
-        width: 300px;
+        height: 480px;
+        width: 280px;
 
         position: relative;
         overflow: hidden;
@@ -119,12 +119,12 @@
 
 
     .video-500{
-        right: 4%;
-        top: 9%;
+        right: -4%;
+        top: 7%;
     }
     .video-350{
         top: 50%;
-        left: 1%;
+        left: -4%;
         gap: 5px;
     }
     
@@ -245,7 +245,7 @@
 
     /* training part */
     .training-container{
-        max-width: 290px;
+        max-width: 280px;
     }
     .training-container > h1{
         font-size: 40px;
