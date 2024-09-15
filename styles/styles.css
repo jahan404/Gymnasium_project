@@ -319,93 +319,168 @@ header{
 
 }
 /*////////////////////// training & exercise ////////////////////////*/
-/* .training-main{
+ .training-main{
     background: rgba(0, 0, 0, 0.937);
 }
 .training-container{
     max-width: 1150px;
     margin: 0 auto;
 }
+.training-container > p{
+    margin-bottom: 40px;
+}
 .training-image-container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(10,1fr);
+    grid-template-rows: repeat(5,1fr);
 
     gap: 0px;
 }
 .pic-1{
     grid-column: 1/span 3;
-    grid-row: 1/span 4;
+    grid-row: 1/span 2;
+
+    position: relative;
 }
 .pic-2{
-    grid-column: 4/span 6;
-    grid-row: 1/span 4;
+    grid-column: 4/span 5;
+    grid-row: 1/span 2;
+    position: relative;
 }
 .pic-3{
-    grid-column: 10/span 3;
-    grid-row: 1/span 4;
+    grid-column: 9/span 4;
+    grid-row: 1/span 2;
+    position: relative;
 }
 
 .pic-4{
     grid-column: 1/span 5;
-    grid-row: 5/span 4;
+    grid-row: 3/span 2;
+    position: relative;
 }
 .pic-5{
     grid-column: 6/span 3;
-    grid-row: 5/span 4;
+    grid-row: 3/span 2;
+    position: relative;
 }
 .pic-6{
     grid-column: 9/span 4;
-    grid-row: 5/span 4;
+    grid-row: 3/span 2;
+    position: relative;
 }
-.training-image-container div img{
+.training-image-container .image-div{
+    height: 200px;
+}
+.training-image-container .image-div img{
     width: 100%;
-    height: 230px;
+    height: 100%;
     object-fit: cover;
+    
 }
 
 .pic-1-color-effect{
-    height: 230px;
-    width: 290px;
+    height: 100%;
+    width: 100%;
     z-index: 10;
     background-color: rgba(6, 255, 210, 0.5);
     position: absolute;
 }
 .pic-2-color-effect{
-    height: 230px;
-    width: 576px;
+    width: 100%;
+    height: 100%;
     z-index: 10;
     background-color: rgba(255, 0, 0, 0.3);
     position: absolute;
 }
 .pic-3-color-effect{
-    height: 230px;
-    width: 290px;
+    width: 100%;
+    height: 100%;
     z-index: 10;
     background-color:rgba(0, 0, 0, 0.5);
     position: absolute;
 }
 .pic-4-color-effect{
-    height: 230px;
-    width: 490px;
+    width: 100%;
+    height: 100%;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
 }
 .pic-5-color-effect{
-    height: 230px;
-    width: 290px;
+    width: 100%;
+    height: 100%;
     z-index: 10;
     background-color: rgba(66, 255, 0, 0.3);
     position: absolute;
 }
 .pic-6-color-effect{
-    height: 230px;
-    width: 385px;
+    width: 100%;
+    height: 100%;
     z-index: 10;
     background-color: rgba(0, 71, 255, 0.3);
     position: absolute;
-} */
+} 
+
+.pic-1 p{
+     position: absolute; 
+
+     color: black;
+     top: 70%;
+     left: 5%;
+     z-index: 20;
+     font-size: 17px;
+     font-weight: 600;
+}
+.pic-2 p{
+    position: absolute; 
+
+    color: white;
+    z-index: 20;
+    font-size: 17px;
+    font-weight: 600;
+    top: 10%;
+    left: 5%;
+}
+.pic-3 p{
+    position: absolute; 
+
+    color: white;
+    z-index: 20;
+    font-size: 17px;
+    font-weight: 600;
+    top: 70%;
+    left: 5%;
+}
+.pic-4 p{
+    position: absolute; 
+
+    color: white;
+    z-index: 20;
+    font-size: 17px;
+    font-weight: 600;
+    top: 10%;
+    left: 60%;
+}
+.pic-5 p{
+    position: absolute; 
+
+    color: white;
+    z-index: 20;
+    font-size: 17px;
+    font-weight: 600;
+    top: 70%;
+    left: 15%;
+}
+.pic-6 p{
+    position: absolute; 
+
+    color: white;
+    z-index: 20;
+    font-size: 17px;
+    font-weight: 600;
+    top: 70%;
+    left: 15%;
+}
 
 /*////////////////////// bmi container ////////////////////*/
 .bmi_calculator-main{
@@ -419,7 +494,8 @@ header{
     /* border: 2px solid red; */
 }
 .bmi-calculator-header h1,
-.membership-pricing-main h3{
+.membership-pricing-main h3,
+.training-container h1{
     color: white;
     text-align: left;
     font-size: 48px;
@@ -428,7 +504,8 @@ header{
 }
 .bmi-calculator-header p,
 .bmi-calculator-right p,
-.membership-pricing-main > p{
+.membership-pricing-main > p,
+.training-container > p{
     color: white;
     text-align: left;
     width: 100%;
