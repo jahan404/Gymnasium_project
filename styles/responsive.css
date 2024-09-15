@@ -245,7 +245,7 @@
 
     /* training part */
     .training-container{
-        max-width: 340px;
+        max-width: 290px;
     }
     .training-container > h1{
         font-size: 40px;
